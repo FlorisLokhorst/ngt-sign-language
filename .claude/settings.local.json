@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL \"https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/nl/nl_50k.txt\")",
+      "Bash(npx tsc:*)",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('/Users/florislokhorst/Desktop/School/Untitled/app_with_mediapipe.py'\\).read\\(\\)\\); print\\('Python syntax OK'\\)\")",
+      "Bash(python3 -c \"import fastapi; import tensorflow; import mediapipe; import cv2; print\\('Backend deps OK'\\)\")",
+      "Bash(pip3 list:*)",
+      "Bash(pip3 install:*)",
+      "Bash(npm install:*)",
+      "Bash(python3 -c \"import fastapi; import tensorflow; import mediapipe; import cv2; import uvicorn; print\\('All backend deps OK'\\)\")",
+      "Bash(pip3 show:*)",
+      "Bash(python3 -m venv /Users/florislokhorst/Desktop/School/Untitled/.venv)",
+      "Bash(/Users/florislokhorst/Desktop/School/Untitled/.venv/bin/pip install:*)"
+    ]
+  }
+}
